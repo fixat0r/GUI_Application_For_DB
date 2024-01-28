@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.32.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\edu.BuisnessLayer\edu.BuisnessLayer.csproj" />
+    <ProjectReference Include="..\edu.DataAccess\edu.DataAccess.csproj" />
+    <ProjectReference Include="..\edu.Dto\edu.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+﻿<Window x:Class="Edu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Edu"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btUser" Content="Персональные данные" HorizontalAlignment="Left" Margin="155,180,0,0" VerticalAlignment="Top" Height="39" Width="155" Click="Button_Click"/>
+        <Button x:Name="btnPers" Content="Данные входа" HorizontalAlignment="Left" Margin="386,180,0,0" VerticalAlignment="Top" Height="39" Width="156" Click="btnPers_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,50 @@
+﻿<Window x:Class="Edu.AddUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Edu"
+        mc:Ignorable="d"
+        Title="AddUser" Height="450" Width="473">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="251*"/>
+            <ColumnDefinition Width="549*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="28*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="68*"/>
+        </Grid.RowDefinitions>
+        <Label Content="" HorizontalAlignment="Left" Margin="54,10,0,0" Grid.Row="1" VerticalAlignment="Top" Height="26" Width="38"/>
+        <Label Content="user id" HorizontalAlignment="Center" Margin="0,6,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="15"/>
+        <Label Content="number Passport" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" FontSize="15"/>
+        <Label Content="email" HorizontalAlignment="Center" Grid.Row="9" VerticalAlignment="Center" FontSize="15"/>
+        <Label Content="middle Name" HorizontalAlignment="Center" Grid.Row="8" VerticalAlignment="Center" FontSize="15"/>
+        <Label Content="surname" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" FontSize="15"/>
+        <Label Content="name" HorizontalAlignment="Center" Grid.Row="7" VerticalAlignment="Top" Margin="0,10,0,0" FontSize="15"/>
+        <Label Content="number Snils" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" FontSize="15"/>
+        <Label Content="address" HorizontalAlignment="Center" Margin="0,4,0,0" Grid.Row="3" VerticalAlignment="Top" FontSize="15"/>
+        <Label Content="phone" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" FontSize="15"/>
+        <TextBox x:Name="tbUserId" Grid.Column="1" HorizontalAlignment="Left" Margin="29,0,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" Width="240"/>
+        <TextBox x:Name="tbMiddleName" Grid.Column="1" HorizontalAlignment="Left" Margin="29,0,0,0" Grid.Row="8" TextWrapping="Wrap" VerticalAlignment="Center" Width="240"/>
+        <TextBox x:Name="tbName" Grid.Column="1" HorizontalAlignment="Left" Margin="29,0,0,0" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Center" Width="240"/>
+        <TextBox x:Name="tbSurname" Grid.Column="1" HorizontalAlignment="Left" Margin="29,0,0,0" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Center" Width="240"/>
+        <TextBox x:Name="tbNumberSnils" Grid.Column="1" HorizontalAlignment="Left" Margin="29,0,0,0" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Center" Width="240"/>
+        <TextBox x:Name="tbNumberPassport" Grid.Column="1" HorizontalAlignment="Left" Margin="29,0,0,0" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Center" Width="240"/>
+        <TextBox x:Name="tbAddress" Grid.Column="1" HorizontalAlignment="Left" Margin="29,0,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Width="240"/>
+        <TextBox x:Name="tbPhone" Grid.Column="1" HorizontalAlignment="Left" Margin="29,0,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Width="240"/>
+        <TextBox x:Name="tbEmail" Grid.Column="1" HorizontalAlignment="Left" Margin="29,0,0,0" Grid.Row="9" TextWrapping="Wrap" VerticalAlignment="Center" Width="240"/>
+        <Button x:Name="btnSave" Content="Сохранить" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="10" VerticalAlignment="Top" Height="43" Width="83" Click="btnSave_Click"/>
+        <Button x:Name="btnClose" Content="Закрыть" HorizontalAlignment="Left" Margin="191,9,0,0" Grid.Row="10" VerticalAlignment="Top" Grid.Column="1" Height="45" Width="100" Click="btnClose_Click"/>
+
+    </Grid>
+</Window>
